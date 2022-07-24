@@ -57,38 +57,13 @@ body {
 
 
 /* Стрелка */
-.slick-arrow {
-  position: absolute;
-  top: 50%;
-  margin: -40px 0 0 0;
-  z-index: 10;
-  font-size: 0;
-  width: 40px;
-  height: 40px;
-}
+.slick-arrow {}
 
 /* стрелка в лево */
-.slick-arrow.slick-prev {
-  left: 0;
-  background: url(/img/sany.png) 0 0 / 100% no-repeat;
-  border-radius: 50%;
-  /* width: 30px;
-  height: 30px;
-  background-color: #fff;
-  border-radius: 50%; */
-}
+.slick-arrow.slick-prev {}
 
 /* стрелка в право */
-.slick-arrow.slick-next {
-  right: 0;
-  background: url(/img/sany.png) 0 0 / 100% no-repeat;
-  border-radius: 50%;
-
-  /* width: 30px;
-  height: 30px;
-  background-color: #fff;
-  border-radius: 50%; */
-}
+.slick-arrow.slick-next {}
 
 /* стрелка не активная */
 .slick-arrow.slick-disabled {}
@@ -111,33 +86,32 @@ body {
   display: block;
 } */
 
-/* .slider .slick-arrow {
+.slider .slick-arrow {
   position: absolute;
   top: 50%;
-  margin: -50px 0 0 0;
+  margin: -40px 0 0 0;
   z-index: 10;
   font-size: 0;
   width: 80px;
   height: 80px;
-} */
+}
 
-/* .slider .slick-arrow.slick-prev {
+.slider .slick-arrow.slick-prev {
   left: 0;
-  /* background: url(/img/bl.png) 0 0 / 100% no-repeat; */
-/* width: 50px;
-  height: 50px;
-  background-color: #fff;
+  background: url(/img/sany.png) 0 0 / 100% no-repeat;
+  width: 30px;
+  height: 30px;
+  /* background-color: #fff; */
   border-radius: 50%;
-} */
+}
 
-/* .slider .slick-arrow.slick-next {
+.slider .slick-arrow.slick-next {
   right: 0;
-  background: url(/img/br.png) 0 0 / 100% no-repeat;
-  width: 50px;
-  height: 50px;
-  background-color: #fff;
+  background: url(/img/sany.png) 0 0 / 100% no-repeat;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
-} */
+}
 
 .slider .slick-arrow.slick-disabled {
   opacity: 0.2;
