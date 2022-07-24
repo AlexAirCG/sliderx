@@ -98,8 +98,8 @@ body {
 
 .slider .slick-arrow.slick-prev {
   left: 0;
-  background: url(/img/sany.png) 0 0 / 100% no-repeat;
-  /* background-color: #fff; */
+/*   background: url(/img/sany.png) 0 0 / 100% no-repeat; */
+  background-color: #fff;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -107,8 +107,8 @@ body {
 
 .slider .slick-arrow.slick-next {
   right: 0;
-  background: url(/img/sany.png) 0 0 / 100% no-repeat;
-  /* background-color: #fff; */
+/*   background: url(/img/sany.png) 0 0 / 100% no-repeat; */
+  background-color: #fff;
   width: 30px;
   height: 30px;
   border-radius: 50%;
